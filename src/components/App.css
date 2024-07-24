@@ -3,55 +3,7 @@
 @import "~slick-carousel/slick/slick-theme.css";
 
 @import url('https://fonts.google.com/css?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
-/* SimpleSlider.css */
-/*.slider-container {
-  position: relative;
-  width: 100%;
-  height: 400px; /* Adjust height as needed 
-  overflow: hidden;
-}
 
-.slick-slide {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-
-.slide {
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-}
-
-.prev-btn, .next-btn {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  border-radius: 50%;
-  font-size: 1rem; /* Adjust size as needed 
-  z-index: 1;
-}
-
-.prev-btn {
-  left: 10px;
-}
-
-.next-btn {
-  right: 10px;
-}
-
-.prev-btn:hover, .next-btn:hover {
-  background-color: rgba(0, 0, 0, 0.7);
-}
-
-*/
 *{
   margin: 0;
   padding: 0;
@@ -207,13 +159,6 @@ p{
   background-color: rgba(0, 0, 0, 0.7);
   transform: scale(1.1); 
 }
-{/*.section-img{
-  background-image: url("./static/Images/HPF08780-scaled.jpg");
-  background-size: cover;
-  background-position: center;
-  width:80vw!important;
-  height:100%!important;
-}*/}
 .hero-section .container{
   display: grid;
   place-content: center;
@@ -293,20 +238,6 @@ p{
   z-index: 2; /* Ensure it stays above the slider */
   pointer-events: none; /* Prevent interaction */
 }
-/*.caption2 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background 
-    padding: 10px 20px;
-   border-radius: 5px;
-  text-align: center;
-  font-size: 1.5rem; /* Adjust font size as needed 
-  z-index: 1; /* Ensure it stays above the slider 
-  pointer-events: none; /* Prevent interaction 
-}*/
 .prev-btn2, .next-btn2 {
   position: absolute;
   top: 50%;
@@ -353,10 +284,6 @@ p{
   margin-bottom: 10vw;
 }
 .service-card{
-
-  /*display: flex;
-  justify-content:center;*/
-  /*place-items: center;*/
   border:none!important;
   display:grid;
   width: 100vw!important;
@@ -365,8 +292,6 @@ p{
 .service-card-img{
   height:70vw!important;
   width:35vh!important;
-  /*height:60vw;
-  width:70vw!important;*/
   margin-bottom:2rem;
   border:1px solid black;
   border-radius:1rem!important;
