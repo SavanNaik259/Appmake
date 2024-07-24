@@ -7,12 +7,6 @@ import ssimg5 from './static/Images/Mumbai_Maternityphotographer_MS_018.jpeg';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 const Service =() => {
-  const scrollToBottom = () => {
-    window.scrollTo({
-      top: document.body.scrollHeight,
-      behavior: 'smooth',
-    });
-  };
   return (
     <>
             <section className="service-section row-width">
