@@ -1,7 +1,4 @@
 import React from "react";
-import socialimg from './static/Images/IMG_20240717_004123.jpg';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
-import 'react-lazy-load-image-component/src/effects/blur.css';
 const Professional =()=>{
   const scrollToBottom = () => {
     window.scrollTo({
